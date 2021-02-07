@@ -29,4 +29,4 @@ The green points are the camera view points and the red point are the world came
 
 
 input data : several consecutive images (with camera intrinsic matrix)
-output data : object 3d points, camera view points 
+output data : object 3d points, camera view points
