@@ -6,10 +6,11 @@ CMakeFiles.zip을 해당 directory에 푼 다음, 연속된 여러 이미지들(
 
 **초록색 point들은 camera view point들**이고 **빨간색 point는 world camera view point**입니다.
 
+```shell
 *** 정량적으로 3d point들을 구하는 방법이므로 camera intrinsic matrix 이 필요합니다. ***
 *** camera intrinsic matrix는 sfm.cpp 파일 가장 위에 입력하면 됩니다. ***
 *** 원하시면 예제에 있는 input data들도 드릴 수 있습니다. ***
-
+```
 
 
 
@@ -23,11 +24,11 @@ After unpacking CMakeFiles.zip into the corresponding directory, you can run the
 The final result is a .ply file that you can open with meshlab to see the 3d points.
 
 The green points are the camera view points and the red point are the world camera view point.
-
+```shell
 *** It is a method of quantitatively obtaining 3d points, so camera intrinsic metric is required.
 *** You must enter the camera intrinsic matrix at the top of the sfm.cpp file.
 *** If you want, I can also provide input data in the example.
-
+```
 
 
 input data : several consecutive images (with camera intrinsic matrix)
