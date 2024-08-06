@@ -1,14 +1,14 @@
-이 코드들은 SFM(Structure from motion) with no bundle (bundle 관련 코드들은 주석 처리) 코드 입니다.
+이 코드들은 **SFM(Structure from motion) with no bundle (bundle 관련 코드들은 주석 처리)** 코드 입니다.
 
 CMakeFiles.zip을 해당 directory에 푼 다음, 연속된 여러 이미지들(2 ~ @)을 testdata라는 파일에 넣고 코드가 있는 파일과 같은 directory에 넣으면 코드를 돌릴 수 있습니다.
 
 최종 결과는 .ply 파일로 meshlab으로 열면 3d point들을 볼 수 있습니다.
 
-초록색 point들은 camera view point들이고 빨간색 point는 world camera view point입니다.
+**초록색 point들은 camera view point들**이고 **빨간색 point는 world camera view point**입니다.
 
-*** 정량적으로 3d point들을 구하는 방법이므로 camera intrinsic matrix 이 필요합니다.
-*** camera intrinsic matrix는 sfm.cpp 파일 가장 위에 입력하면 됩니다.
-*** 원하시면 예제에 있는 input data들도 드릴 수 있습니다.
+*** 정량적으로 3d point들을 구하는 방법이므로 camera intrinsic matrix 이 필요합니다. ***
+*** camera intrinsic matrix는 sfm.cpp 파일 가장 위에 입력하면 됩니다. ***
+*** 원하시면 예제에 있는 input data들도 드릴 수 있습니다. ***
 
 
 
