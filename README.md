@@ -17,9 +17,9 @@ CMakeFiles.zip을 해당 directory에 푼 다음, 연속된 여러 이미지들(
 
 
 
-These codes are SFM(Structure from motion) with no bundle (bundle related codes are commented out).
+These codes are **SFM(Structure from motion) with no bundle (bundle related codes are commented out)**.
 
-After unpacking CMakeFiles.zip into the corresponding directory, you can run the code by putting several consecutive images (2 ~ @) in a file called testdata and putting them in the same directory as the file containing the code.
+After **unpacking CMakeFiles.zip into the corresponding directory**, you **can run the code by putting several consecutive images (2 ~ @) in a file called testdata and putting them in the same directory as the file containing the code.**
 
 The final result is a .ply file that you can open with meshlab to see the 3d points.
 
@@ -30,10 +30,12 @@ The green points are the camera view points and the red point are the world came
 *** If you want, I can also provide input data in the example.
 ```
 
+***please check your data!!!***
+```shell
+**input data : several consecutive images (with camera intrinsic matrix)**
 
-input data : several consecutive images (with camera intrinsic matrix)
-
-output data : object 3d points, camera view points
+**output data : object 3d points, camera view points**
+```
 
 ![outout_example](https://user-images.githubusercontent.com/34564290/107140501-ba1ce000-6965-11eb-8bbd-0ca33ec72701.JPG)
 
